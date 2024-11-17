@@ -9,7 +9,7 @@ void initAtlas(void)
 {
 	memset(&atlases, 0, sizeof(AtlasImage) * NUM_ATLAS_BUCKETS);
 
-	atlasTexture = IMG_LoadTexture(app.renderer, "graphics/atlas.png");
+	atlasTexture = IMG_LoadTexture(app.renderer, "/Users/kaialogen/Developer/Projects/Games/enchiridion_main/graphics/atlas.png");
 
 	loadAtlasData();
 }

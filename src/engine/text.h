@@ -1,5 +1,5 @@
 #include "../common.h"
-#include "SDL2/SDL_ttf.h"
+#include "SDL_ttf.h"
 
 #define FONT_SIZE            32
 #define FONT_TEXTURE_SIZE    512

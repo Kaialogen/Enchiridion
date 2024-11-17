@@ -4,7 +4,7 @@
 #include <math.h>
 #include <ctype.h>
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 
 #include "defs.h"

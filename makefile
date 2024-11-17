@@ -29,7 +29,7 @@ all: $(OUT_DIR)/$(PROG)
 
 $(OUT_DIR)/$(PROG): $(OBJS)
 	@mkdir -p $(OUT_DIR)
-	$(CC) -o $@ $(OBJS) $(LDFLAGS)
+	$(CC) $(OBJS) $(LDFLAGS) -o $@
 
 # Rule to compile each source file into an object file
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c $(DEPS)

@@ -46,7 +46,7 @@ static void loadAtlasData(void)
 	char *text, *filename;
 	unsigned long i;
 
-	text = readFile("data/atlas.json");
+	text = readFile("/Users/kaialogen/Developer/Projects/Games/enchiridion_main/data/atlas.json");
 
 	root = cJSON_Parse(text);
 

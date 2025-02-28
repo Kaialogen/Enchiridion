@@ -5,7 +5,7 @@
 - The gam eis a 2D pixel art dungeon crawler with a focus on combat and exploration.
 - The game is inspired by games like The Legend of Zelda, Binding of Isaac, and the Torghast game mode from World of Warcraft.
 
-[!Images/Main Photo 1.png](Images/Main Photo 1.png)
+[Screenshot](Images/MainPhoto.png)
 
 # Building and Running
 - To build the game, you will need to have the SDL2 library installed on your system.

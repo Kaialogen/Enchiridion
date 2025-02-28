@@ -3,8 +3,8 @@
 #define STRNCPY(dest, src, n) strncpy(dest, src, n); dest[n - 1] = '\0'
 #define STRCPY(dest, src) strncpy(dest, src, sizeof(dest)); dest[sizeof(dest) - 1] = '\0'
 
-#define SCREEN_WIDTH              2560
-#define SCREEN_HEIGHT             1440
+#define SCREEN_WIDTH              900
+#define SCREEN_HEIGHT             600
 
 #define FPS                       60.0
 #define LOGIC_RATE                (FPS / 1000)
